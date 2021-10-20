@@ -1,0 +1,57 @@
+/*------------------------
+ header/navigation
+ -------------------------*/
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #bfcfd9;
+}
+
+li,
+a {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.inner {
+  max-width: 1249px;
+  margin: 0 auto;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.logo {
+  cursor: hover;
+}
+
+#sb {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 415px;
+  height: 33px;
+  padding: 5px;
+}
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
