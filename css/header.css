@@ -48,10 +48,14 @@ a {
   padding: 0px 20px;
 }
 
-.nav__links li a {
-  transition: all 0.3s ease 0s;
-}
-
 .nav__links li a:hover {
   color: #0088a9;
+}
+
+.icon {
+  display: inline-block;
+}
+.nav__links li:nth-child(5),
+.nav__links li:nth-child(6) {
+  padding: 5px;
 }
