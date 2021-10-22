@@ -7,7 +7,7 @@
 
 .hero-banner {
   background-image: url(../img/hero-banner.png);
-  height: 809px;
+  height: 1100px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -16,7 +16,8 @@
   font-size: 60px;
   line-height: 71px;
   color: white;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 90px;
 }
 .relative {
   position: relative;
