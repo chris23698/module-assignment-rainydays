@@ -37,6 +37,7 @@ footer {
 ul {
   flex-wrap: wrap;
   list-style: none;
+  line-height: 40px;
 }
 li {
   padding: 0 15px;
@@ -51,7 +52,7 @@ a {
 
 i {
   cursor: pointer;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 p {
