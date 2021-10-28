@@ -7,6 +7,36 @@
     width: 100%;
     background-color: #bfcfd9;
   }
+    div {
+      /*hide nav on load*/
+      display: block;
+      background-color: whitesmoke;
+      padding: 0.5em;
+      border-bottom: 2px solid grey;
+      /* animate: default state on page load */
+      transition: all 0.4s linear;
+      transform: translateY(0px);
+      opacity: 0;
+    }
+    .sr-only {
+      display: none;
+    }
+
+    #hamburger-menu {
+      /* hide checkbox */
+      display: none;
+    }
+    #hamburger-menu:checked ~ nav--links {
+      /*show nav :cheched:*/
+      display: block;
+      /* animate into page show state */
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    #id {
+      display: none;
+    }
+  
   }
 
   .nav__links {
