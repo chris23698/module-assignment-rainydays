@@ -1,6 +1,41 @@
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #bfcfd9;
+}
+.inner {
+  max-width: 699x;
+  margin: 0 auto;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+.menu {
+  text-align: center;
+  width: 100%;
+}
+.menu a {
+  display: block;
+  border-bottom: 1px solid #bfcfd9;
+  margin: 0px;
+}
+#toggle:checked + .menu {
+  display: block;
+}
+
 /*------------------------
  header/navigation
- -------------------------*/
+ -------------------------
 @media only screen and (max-width: 700px) {
   header {
     height: 100px;
@@ -8,12 +43,12 @@
     background-color: #bfcfd9;
   }
     div {
-      /*hide nav on load*/
+      /*hide nav on load
       display: block;
       background-color: whitesmoke;
       padding: 0.5em;
       border-bottom: 2px solid grey;
-      /* animate: default state on page load */
+      /* animate: default state on page load 
       transition: all 0.4s linear;
       transform: translateY(0px);
       opacity: 0;
@@ -23,13 +58,13 @@
     }
 
     #hamburger-menu {
-      /* hide checkbox */
+      /* hide checkbox 
       display: none;
     }
     #hamburger-menu:checked ~ nav--links {
-      /*show nav :cheched:*/
+      /*show nav :checked:*
       display: block;
-      /* animate into page show state */
+      /* animate into page show state 
       transform: translateY(0px);
       opacity: 1;
     }
@@ -78,7 +113,9 @@
 
 /*-------------------------------------------
 ------------------desktop-------------------
--------------------------------------------*/
+-------------------------------------------
+
+@media only screen and (min-width: 700px)
 .hamburger-menu {
   display: none;
 }
@@ -139,3 +176,4 @@ a {
 .nav__links li:nth-child(6) {
   padding: 5px;
 }
+*/ ;
